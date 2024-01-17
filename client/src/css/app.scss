@@ -1,0 +1,44 @@
+@import "~bootstrap/scss/bootstrap";
+
+@import "variables";
+@import "shared/base";
+
+html {
+  background: url("https://source.unsplash.com/2560x1440/?dark,space,moon") center no-repeat fixed;
+}
+
+body {
+  background: rgba(#000000, 0.6);
+  padding: 60px 0px 0px 35vw;
+  min-height: 100vh;
+}
+
+.navbar-brand {
+  font-size: 2em;
+  img {
+    display: inline-block;
+    width: 50px;
+  }
+}
+
+#root {
+  h2 {
+    margin-top: 0px;
+    font-family: sans-serif;
+  }
+
+  h4 {
+    margin-top: 20px;
+    font-family: sans-serif;
+  }
+}
+
+.btn-action {
+  outline: none;
+  border: none;
+}
+
+
+@import "main-window";
+@import "call-window";
+@import "call-modal";
